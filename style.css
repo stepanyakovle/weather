@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.title{
+    color: #333;
+}
+#city{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#searchButton{
+    padding: 10px 10px;
+    margin-bottom: 15px;
+    background-color: rgb(112, 112, 244);
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s all;
+
+&:hover{
+    background-color: rgb(93, 93, 196); ;
+    transform: scale(1.1);
+}
+&:active{
+    opacity: 0.9;
+}
+}
